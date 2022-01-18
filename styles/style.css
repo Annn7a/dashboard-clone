@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100...900&display=swap");
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  margin: 50px;
+  min-width: 1200px;
+  display: grid;
+  grid-template-columns: minmax(150px, 20%) 45% 35%;
+}
+.footer {
+  margin-top: 60px;
+}
+.avatar {
+  border-radius: 100%;
+  margin-right: 10px;
+}
+h4 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+span {
+  font-size: 12px;
+  color: gray;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+}
+.p {
+  margin: 0;
+  font-size: 12px;
+}
+.p1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.div2 {
+  margin-top: 40px;
+  align-content: center;
+  align-items: center;
+}
+.div3 {
+  display: flex;
+  align-items: center;
+}
+.p2 {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.div4 {
+  margin-top: 20px;
+}
+
+.div5 {
+  background-image: linear-gradient(
+    to right bottom,
+    #4105dd,
+    #573ae6,
+    #6d5bec,
+    #8278f0,
+    #9994f3,
+    #aaa6f4,
+    #bbb8f5,
+    #cccaf6,
+    #dad7f8,
+    #e7e4fa,
+    #f3f1fd,
+    #ffffff
+  );
+  width: 150px;
+  height: 150px;
+  border-radius: 14px;
+  margin-top: 60px;
+  box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 20%);
+  position: relative;
+}
+.span1 {
+  align-content: flex-end;
+  color: black;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 15px;
+}
+.img2 {
+  margin-top: 15px;
+  margin-left: 120px;
+}
+.p3 {
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.div6 {
+  margin-top: 0;
+}
+.div7 {
+  background-color: black;
+  width: 100%;
+  height: 110px;
+  border-radius: 14px;
+  position: relative;
+}
+.div7 img {
+  position: absolute;
+  right: 2px;
+  width: 130px;
+  height: 240px;
+  bottom: -77px;
+}
+h3 {
+  color: white;
+  font-size: 22px;
+  bottom: 14px;
+  position: absolute;
+  left: 40px;
+}
+.div8 {
+  background-color: #f9f8f4;
+  height: 100px;
+  width: 30%;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.p4 {
+  font-size: 11px;
+}
+.p5 {
+  font-size: 24px;
+  margin: 0;
+}
+.div9 {
+  display: flex;
+  justify-content: space-between;
+}
+.div10 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.p6 {
+  font-size: 12px;
+}
+h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.div11 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.div12 {
+  margin-left: 38px;
+  width: 60%;
+}
+.div13 {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  margin: 0;
+  margin-right: 4px;
+}
+.active {
+  background-color: #4fac68;
+}
+.inactive {
+  background-color: black;
+}
+.div14 {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.div15 {
+  padding: 6px;
+  background-color: #f7f7f9;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+.div16 {
+  display: flex;
+}
+.div17 {
+  margin: 70px 0px 0px 60px;
+  position: relative;
+}
+.div18 {
+  display: flex;
+  align-items: center;
+}
+.img3 {
+  margin-left: auto;
+}
+.div19 {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 40px;
+}
+.div20 {
+  width: 7px;
+  height: 7px;
+  background-color: #4fac68;
+}
+.p7 {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.div21 {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.s1 {
+  color: black;
+  width: 40%;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+}
+.s2 {
+  color: black;
+  width: 40%;
+  font-size: 12px;
+}
+.s3 {
+  color: #4fac68;
+  width: 20%;
+  text-align: right;
+  font-size: 12px;
+}
+.s4 {
+  color: black;
+  width: 20%;
+  text-align: right;
+  font-size: 12px;
+}
+.div22 {
+  display: flex;
+  margin-bottom: 30px;
+}
+.gradient {
+  position: absolute;
+  background: rgb(200, 200, 200);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(254, 254, 255, 0.8) 100%
+  );
+  width: 100%;
+  height: 150px;
+  bottom: 3px;
+  backdrop-filter: blur(1px);
+}
+.button {
+  background-color: rgba(51, 51, 51, 0.8);
+  backdrop-filter: blur(1px);
+  width: 50%;
+  border-radius: 50px;
+  padding: 15px 10px;
+  display: block;
+  margin: 55px auto 0;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+}
